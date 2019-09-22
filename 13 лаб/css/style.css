@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.header {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+}
+
+.navbar-logo {
+    opacity: 0.6;
+    display: inline-block;
+    margin: 10px 0px 10px 50px;
+    transition: .3s linear;
+}
+
+.navbar-logo:hover {
+    opacity: 1;
+}
+
+.img-responsive {
+    max-width: 100%;
+    display: block;
+}
+
+.gameImg {
+    height: 725px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.purchase {
+
+    height: 600px;
+    width: 100%;
+    background: #fff;   
+}
+
+.gameName {
+    float: left;
+    margin: 270px 80px 20px 80px;
+    font-size: 60px;
+    font-family: ARIAL;
+}
+
+.arrow {
+    position: absolute;
+    margin: -70px 50%;
+    font-size: 55px;
+    background: transparent;
+    font-family: arial;
+    cursor: pointer;
+    border: solid 0px;
+}
+
+.arrow i{
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+
+.arrow :hover {
+    color: #8A2BE2;
+}
+
+.btn-up {
+    width: 400px;
+    height: 120px;
+    margin: 250px 80px 20px 8px;
+    font-size: 42px;
+    background: #000000;
+    border-radius: 2px;
+    font-family: arial;
+    padding: 15px 0px;
+    cursor: pointer;
+    transition: all 1s ease;
+    color: #ffffff;
+    border: solid 4px #000000;
+}
+
+.btn-up:hover {
+  box-shadow: inset 0 3.1em #ffffff;
+  color: #8A2BE2;
+}
+
+.footer {
+    height: 125px;
+    width: 100%;
+
+    background: #000;
+}
+
+.socialNetwork {
+    margin-right: 600px;
+    margin-left: 600px;
+}
+
+.socialNetwork i {
+    color: #bdbdbd;
+    font-size: 45px;
+    padding: 30px;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px; 
+    border-radius: 20px;
+    transition: color 0.5s;
+}
+
+.social a:hover {
+    color: #8A2BE2;
+}
+
+.socialNetwork i:hover {
+    color: #8A2BE2;
+}

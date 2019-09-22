@@ -1,0 +1,153 @@
+body {
+	background: url(bg.png) no-repeat;
+    background-size: 100%;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto;   
+}
+
+.menu {
+  margin-top: 70px;
+  margin-right: 80px;
+  float: right;
+  font-size: 40px;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+#top_menu{
+  display: inline-block;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+#top_menu > li{
+  display: inline-block;  
+  position: relative;
+}
+#top_menu > li > a{
+  display: inline-block;
+  padding: 20px 20px 10px 20px; 
+  color: #000;
+  margin: 0px;
+  text-decoration: none; 
+  transition: background-color 0.25s, color 0.15s;
+}
+#top_menu > li > a:hover{
+  color: #9400D3;
+  background-color: #000; 
+}
+#top_menu > li:hover > ul a{
+  opacity: 1;
+}
+#top_menu > li:hover > ul li{
+  height: 40px;
+  opacity: 1;
+}
+
+.main {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 400px;
+}
+
+.bye {
+  vertical-align:top;
+  background: transparent;
+  font-size: 45px;
+  color: #000;
+  border: 0px;
+  margin-top: 85px;
+  margin-left: 230px;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.bye:hover {
+  color: #9400D3;
+}
+
+.purchase {
+  display: inline-block;
+  vertical-align:top;
+}
+
+.about {
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 100px;
+  font-size: 22px;
+  font-family: 'Special Elite', cursive;
+}
+
+#price {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 70px;
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Special Elite', cursive;
+}
+
+#star {
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.aboutMain {
+  color: #fff;
+  font-family: 'Special Elite', cursive;
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 50px;
+}
+
+.aboutMain p {
+  font-size: 22px;
+}
+
+.social {
+  margin-right: 120px;
+  float: right;
+}
+
+.social a:hover {
+  opacity: 0.9;
+}
+
+footer {
+  margin-top: 150px;
+} 
+
+.dopMenu {
+  margin-left: 120px;
+  float: left;
+}
+
+.dopMenu a{
+  margin-right: 20px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Special Elite', cursive;
+  color: #000;
+}
+
+.dopMenu a:hover {
+  color: #696969;
+}

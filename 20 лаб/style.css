@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+#first {
+  background: url(1.jpg) center 0 repeat fixed;
+  min-height: 500px;
+  background-size: 100%;
+  height: 1000px;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#first article {
+  float: right;
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+  top: 500px;
+  width: 100%;
+}
+
+#sec {
+  background: url(3.jpg) center 0 repeat fixed;
+  min-height: 500px;
+  background-size: 100%;
+  height: 1000px;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#sec article {
+  float: right;
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+  top: 500px;
+  width: 100%;
+}
+
+
+.article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  width: 100%;
+}
+
+#logo {
+  background: url(geo.jpg) center 0 no-repeat fixed;
+  min-height: 300px;
+  background-size: 100%;
+  height: 300px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#logo article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  top: 80px;
+  width: 100%;
+}
+
+#me {
+  background: url(ME3.gif) center 0 repeat fixed;
+  min-height: 1000px;
+  background-size: 100%;
+  height: 1000px;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#me article {
+  float: right;
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+  top: 300px;
+  width: 100%;
+}

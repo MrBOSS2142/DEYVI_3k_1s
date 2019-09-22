@@ -1,0 +1,144 @@
+body {
+	background: url(bg.png) no-repeat;
+    background-size: 100%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+h3{
+  color: rgb(165, 0, 0);
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto;   
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto;   
+    font-size: 30px;
+    margin-top: 80px;
+    font-family: 'Rye', cursive;
+  }
+  
+  
+ *{
+   box-sizing: border-box;
+ }
+  
+  #top_menu{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+  }
+  #top_menu > li{
+    display: inline-block;  
+    position: relative;
+    border-bottom: #000 solid 4px;
+    margin-right: 80px;
+  }
+  #top_menu > li > a{
+    display: inline-block;
+    padding: 20px 50px;  /*размеры блоков с текстом */
+    color: #fff;
+    margin: 0px;
+    text-decoration: none; 
+    border-radius: 15px 15px 0% 0%;
+    transition: background-color 0.25s, color 0.15s;
+  }
+  #top_menu > li > a:hover{
+    color: rgb(43, 43, 43);
+    background-color: rgba(90, 0, 0, 0.2); 
+  }
+  #top_menu > li:hover > ul a{
+    opacity: 0.2;
+  }
+  #top_menu > li:hover > ul li{
+    height: 40px;
+    opacity: 1;
+  }
+
+  .main {
+    margin-top: 1030px;
+  }
+
+  .nameGame {
+      margin-top: 4000px;
+  }
+
+  .aboutGame {
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 28px;
+  }
+
+.bye {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto;   
+    margin-top: -60px;
+}
+
+.byeText {
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.price {
+	font-size: 80px;
+	font-family: 'Rye', cursive;
+	color: rgb(165, 0, 0);
+}
+
+.byeBtn {
+	margin-top: 105px;
+	margin-left: 30px;
+	height: 60px;
+	cursor: pointer;
+	border: none;
+	background: transparent;
+	transition: all 0.5s ease;
+}
+
+.byeBtn:hover {
+	fill: rgb(165, 0, 0);
+}
+
+footer {
+	display: flex;
+  align-items: center;
+  justify-content: center; 
+  overflow: auto;   
+	margin-top: 150px;
+	margin-bottom: 30px;
+	margin-right: 60px;
+}
+
+.icon {
+	enable-background:new 0 0 239.9 242.9;
+	fill: rgb(165, 0, 0);
+	margin-left: 60px;
+	transition: all 0.3s ease;
+}
+
+.icon:hover {
+	fill: rgb(135, 0, 0);
+}
+
